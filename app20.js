@@ -3,7 +3,7 @@
 var a  = 1;
 let b = 2;
 const c = 3;
-/*
+
 function test() {
   var a  = 4;
   let b = 5;
@@ -12,7 +12,6 @@ function test() {
 }
 
 test();
-*/
 
 
 if(true) {
@@ -21,10 +20,10 @@ let b = 2;
 const c = 3;
 console.log('If Scope: ', a, b, c);
 }
-
+/*
 
 for(let a = 0; a < 10; a++ ) {
   console.log('Loop ' + a);
 }
-
+*/
 console.log('Global Scope: ', a, b, c);
